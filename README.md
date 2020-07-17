@@ -1,3 +1,28 @@
+# mymovie
+Webapp that suggests a specific amount of movies based on various parameters like current weather and time of the day<br/>
+# Stack
+## Backend
+Spring boot<br/>
+Thymeleaf<br/>
+JPA<br/>
+MySQL<br/>
+Spring security (JWT)
+## Frontend
+HTML <br/>
+CSS <br/>
+Javascript <br/>
+React <br/>
+Webpack <br/>
+## View
+## APP (mobile)<br/>
+![app3-min](https://user-images.githubusercontent.com/13123637/87776793-a161a700-c828-11ea-8263-0ac8acb849c1.PNG)
+## App<br/>
+![app1-min](https://user-images.githubusercontent.com/13123637/87776798-a32b6a80-c828-11ea-89c0-7da345ee4114.PNG)
+## Login<br/>
+![app2-min](https://user-images.githubusercontent.com/13123637/87776802-a4f52e00-c828-11ea-9099-ede75d4a6c2c.PNG)
+
+-----------------------
+
 #Third-Party API's
 ###http://api.openweathermap.org/data/2.5/
 ###https://api.themoviedb.org/3/

@@ -111,7 +111,7 @@ response from server
 }
 ```
 
-###Resources for Learning
-####Authentication
+### Resources for Learning
+#### Authentication
 https://bezkoder.com/spring-boot-jwt-authentication/
 

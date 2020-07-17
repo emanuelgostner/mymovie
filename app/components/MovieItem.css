@@ -1,0 +1,66 @@
+.movieItem {
+    width:20%;
+    min-width:100px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1100px) {
+    .movieItem {
+        width: 33.33%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .movieItem {
+            padding: 0 10px;
+        }
+}
+@media screen and (max-width: 750px) {
+    .movieItem {
+        width: 50%;
+    }
+}
+.movieItem_top {
+    display: flex;
+}
+.movieItem_image {
+    width: 100%;
+    height: auto;
+}
+.movieItem_number {
+    margin-right: -45px;
+    margin-left: 10px;
+    font-size: 13em;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    height: 0;
+}
+.themeDark .movieItem_number {
+    visibility: hidden;
+}
+@media screen and (max-width: 900px) {
+    .movieItem_number {
+        display: none;
+    }
+}
+.movieItem_information {
+    display: flex;
+    justify-content : space-evenly;
+    background: #000000a8;
+    padding: 3px;
+    border-radius: 0 0 3px 3px;
+}
+.movieItem_favourite {
+    cursor: pointer;
+}
+.movieItem_favourite:hover svg {
+    fill: #d23936;
+    transition: 0.5s all;
+}
+.movieItem_favourite svg.fav {
+    fill: #d23936;
+}
+@media screen and (max-width: 350px) {
+    .movieItem_pop {
+        display: none;
+    }
+}

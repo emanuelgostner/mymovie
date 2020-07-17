@@ -1,0 +1,20 @@
+.mainWrapper {
+    background-image: url("https://image.tmdb.org/t/p/original/1R6cvRtZgsYCkh8UFuWFN33xBP4.jpg");
+    background-blend-mode: color-burn;
+    background-color: #00000096;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: scroll;
+    color: white;
+    z-index: -2;
+}
+
+.themeDark.mainWrapper {
+    background-image: none;
+    background-color: white;
+}
+#main {
+    padding: 0 10px 10px 10px;
+}

@@ -1,0 +1,3 @@
+/*
+Create static database tables here
+*/

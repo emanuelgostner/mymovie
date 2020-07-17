@@ -1,0 +1,61 @@
+#header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 660px) {
+    #header {
+        display: block;
+    }
+}
+.themeDark #header {
+    color: black;
+}
+.themeDark .emoji {
+    display: none;
+}
+.logo {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: "Courier New", Courier, monospace;
+}
+.logo .a {
+    display: inline-block;
+    border-radius: 5px 0 0 5px;
+    background: #d9f6f6;
+    padding: 7px;
+    color: indianred;
+}
+.logo .b {
+    display: inline-block;
+    border-radius: 0 20px 5px 0;
+    background: indianred;
+    padding: 7px;
+    color: white;
+}
+.headerRightWrapper {
+    display: flex;
+    align-items: center;
+}
+.userStatus {
+    font-size: 1.2em;
+    margin-left: 5px;
+}
+.headerButton {
+    padding: 8px;
+    background: indianred;
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.userName{
+    cursor: pointer;
+    color: indianred;
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+.filter {
+    display: flex;
+    margin-top: 20px;
+}
+@media screen and (max-width: 630px) {
+    .filter {
+        display: block;
+    }
+}
+.themeDark .filter {
+    color: black;
+}
+.filterItems{
+    display: flex;
+}
+.filterItem {
+    display: flex;
+    border-radius: 3px;
+    border: 1px solid white;
+    padding: 3px;
+    align-items: center;
+    margin: 0 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.filterItem.inactive:hover {
+    background: indianred;
+}
+/*.filterItem.active:hover {*/
+/*    background: none;*/
+/*}*/
+.filterItem.active {
+    background: indianred;
+}
+.filterItem img {
+    margin: -5px 0 -5px -5px;
+}
+.themeDark .filterItem img {
+    display: none;
+}
+.filter small {
+    font-size: .7em;
+    display: block;
+}

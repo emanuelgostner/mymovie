@@ -23,14 +23,14 @@ Webpack <br/>
 
 -----------------------
 
-#Third-Party API's
-###http://api.openweathermap.org/data/2.5/
-###https://api.themoviedb.org/3/
-#myMovie API
-#Favourites
+# Third-Party API's
+### http://api.openweathermap.org/data/2.5/
+### https://api.themoviedb.org/3/
+# myMovie API
+# Favourites
 using GET, POST, DELETE to manage favourite movies in a mySQL database<br>
 implemented in MainController.java
-###GET
+### GET
 requestMovie (UserDetailsImpl customUser)<br>
 return values: 
 - a json with all movies which are saved in the database for the<br>
@@ -42,7 +42,7 @@ current logged in user
 Optional return value:<br>
 GET with optional Header XML and value yes returns a XML
 
-###POST
+### POST
 saveMovie(String json,UserDetailsImpl customUser)<br>
 needs a JSON-String for the movie, which should be saved in the database<br>
 (for the current logged in user)
@@ -50,7 +50,7 @@ return values:
 - HTTPstatuscode 200 (OK)
 - HTTPstatuscode 401 (Unauthorized, if no user is logged in)
 
-###DELETE
+### DELETE
 deleteMovie(String json, UserDetailsImpl customUser)
 needs a JSON-String for the movie, which should be deleted in the database<br>
 (for the current logged in user)
@@ -59,19 +59,19 @@ return values:
 - HTTPstatuscode 204 (no Content, if there's no movie saved for the user)
 - HTTPstatuscode 401 (Unauthorized, if no user is logged in)
 
-
 using PUT to change username<br>
 implemented in Usercontroller.java
 return values:
 - HTTPstatuscode 200 (OK)
 - HTTPstatuscode 401 (Unauthorized, if no user is logged in)
-###PUT
+
+### PUT
 changeUsername(String newUsername, UserDetailsImpl customUser)
 needs a String for the new username<br>
 #myMovie Authentication
 Authentication is done with JWT and Spring Security.
 
-Signup:
+### Signup:
 ```
 
 POST to server /api/auth/signup  
@@ -88,7 +88,7 @@ response from server
 }
 ```
 
-Signin:
+### Signin:
 ```
 
 POST to server /api/auth/signin  
